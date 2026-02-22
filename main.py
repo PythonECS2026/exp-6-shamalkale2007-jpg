@@ -3,9 +3,9 @@
 # Date:13/02/26
 
 print("--- Entrance Exam Students ---")
-cet_students = {"Alice", "Bob", "Charlie", "David"}
-jee_students = {"Eve", "Frank", "Grace", "Heidi"}
-neet_students = {"Ivan", "Judy", "Karl", "Liam"}
+cet_students = {"Alice", "Bob", "Charlie", "Frank"}
+jee_students = {"Eve", "Frank", "Bob", "Heidi"}
+neet_students = {"Bob", "Charlie", "Karl", "Liam"}
 
 print(f"List of Students:")
 print(f"CET Students: {cet_students}")
@@ -28,6 +28,7 @@ print(f"JEE but not for NEET: {jee_not_neet}")
 # TODO: Find and Print Students appearing for CET and NEET but not for JEE
 cet_neet_not_jee = (cet_students & neet_students) - jee_students
 print(f"CET and NEET but not for JEE: {cet_neet_not_jee}")
+
 
 
 
