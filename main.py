@@ -35,3 +35,4 @@ print(f"CET and NEET but not for JEE: {cet_neet_not_jee}")
 
 
 
+
